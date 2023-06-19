@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.top {
+    background-color: rgba(145, 145, 247, 0.726);
+}
+
+.main {
+    height: 50vh;
+    display: flex;
+}
+
+.editor-div {
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    background-color: rgba(145, 145, 247, 0.726);
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(70, 70, 247, 0.726);
+    color: white;
+    padding: .5rem .5rem .5rem 1rem;
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
